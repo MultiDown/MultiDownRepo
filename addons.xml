@@ -9,13 +9,13 @@
  <import addon="script.module.beautifulsoup4" version="4.3.1" />
  <import addon="script.module.requests" version="2.3.0" />
  <import addon="script.module.html5lib" version="0.999.0" />
- <import addon="script.module.urlresolver"/>
+ <import addon="script.module.resolveurl" version="5.0.00"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">https://www.facebook.com/MultiDown.me</summary>
+    <summary lang="en">https://www.facebook.com/www.MultiDown.me</summary>
 <description lang="he">
 מרכז ההורדות הגדול ביותר בישראל עם תכנים ייחודים במיוחד בשביל גולשי האתר! מחפשים סרטים או סדרות להורדה עם תרגום ובאיכות הטובה ביותר?
 
@@ -32,7 +32,7 @@
 	<extension point="xbmc.addon.repository">
 		<info compressed="false">https://raw.githubusercontent.com/MultiDown/MultiDownRepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/MultiDown/MultiDownRepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/MultiDown/MultiDownRepo/tree/master</datadir>
+		<datadir zip="true">https://raw.githubusercontent.com/MultiDown/beta/master/</datadir>
     </extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
