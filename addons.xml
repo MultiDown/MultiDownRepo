@@ -32,7 +32,7 @@
 	<extension point="xbmc.addon.repository">
 		<info compressed="false">https://raw.githubusercontent.com/MultiDown/MultiDownRepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/MultiDown/MultiDownRepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/MultiDown/MultiDownRepo/master/</datadir>
+		<datadir zip="true">https://github.com/MultiDown/MultiDownRepo/tree/master</datadir>
     </extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
@@ -40,4 +40,5 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
 </addons>
